@@ -1,6 +1,7 @@
 ---
 title: Before you automate a workflow, write down four things
 slug: before-you-automate-a-workflow
+published: 2026-11-11
 description: An illustrative invoice workflow explains how to define inputs, outputs, failure handling and checks before choosing an AI tool.
 ---
 

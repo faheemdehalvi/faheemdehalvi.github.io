@@ -1,6 +1,7 @@
 ---
 title: What I build and why I'm writing about it
 slug: what-i-build
+published: 2026-11-11
 description: AI engineer Faheem Dehalvi introduces his projects and practical writing on AI workflows, context and integrations.
 ---
 

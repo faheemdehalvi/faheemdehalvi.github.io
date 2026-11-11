@@ -623,6 +623,7 @@ def build(articles_dir=None, base_url=None, out=None):
     if base_url:
         (out / "sitemap.xml").write_text(site.sitemap(), encoding="utf-8")
         (out / "robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: %ssitemap.xml\n" % base_url, encoding="utf-8")
+    (out / ".nojekyll").touch()
     problems, externals, count = verify(out, site.cfg["lang"], base_url)
     return site, out, problems, externals, count
 
