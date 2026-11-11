@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What I build and why I&#x27;m writing about it | Faheem Dehalvi</title>
+<meta name="description" content="AI engineer Faheem Dehalvi introduces his projects and practical writing on AI workflows, context and integrations.">
+<meta name="theme-color" content="#fff8e6">
+<meta property="og:type" content="website">
+<meta property="og:title" content="What I build and why I&#x27;m writing about it | Faheem Dehalvi">
+<meta property="og:description" content="AI engineer Faheem Dehalvi introduces his projects and practical writing on AI workflows, context and integrations.">
+<link rel="canonical" href="https://faheemdehalvi.github.io/writing/what-i-build/">
+<meta property="og:url" content="https://faheemdehalvi.github.io/writing/what-i-build/">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="../../">Faheem Dehalvi</a>
+    <nav aria-label="Main">
+      <ul class="nav-list">
+        <li><a href="../../#projects">Projects</a></li>
+        <li><a href="../../writing/" aria-current="page">Writing</a></li>
+        <li><a href="../../#about">About</a></li>
+        <li><a href="../../#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<article class="section article">
+  <div class="wrap">
+    <p class="label"><a href="../../writing/">&larr; All writing</a></p>
+    <header class="article-head">
+      <p class="label">Article</p>
+      <h1 class="page-title">What I build and why I&#x27;m writing about it</h1>
+
+    </header>
+    <div class="prose">
+<p>I want AI advice that leaves me knowing what to do next. Which part of a task could I automate? What would I need to check? When is the simpler setup enough?</p>
+<p>Those are the questions I want this site to answer.</p>
+<p>I&#x27;m Faheem Dehalvi, an AI Engineer based in Melbourne. I work part-time at <a href="https://intelligentresourcing.co/about-us" rel="noopener noreferrer">Intelligent Resourcing</a>, building automations and agents, while completing a Master of Data Science at RMIT. I expect to graduate in June 2027.</p>
+<p>Outside work, I work on tools for connecting AI assistants, organising context and getting useful work done across applications. This site is where I&#x27;ll explain those projects and the decisions behind them.</p>
+<h2 id="three-projects-you-can-inspect">Three projects you can inspect</h2>
+<p>The first is <a href="https://github.com/faheemdehalvi/fd-code" rel="noopener noreferrer">FD CODE</a>, a customised version of <a href="https://github.com/pingdotgg/t3code" rel="noopener noreferrer">T3 Code</a>. It brings together coding agents with additions around local context, provider handoffs and creative tools.</p>
+<p>The underlying application comes from T3 Code&#x27;s authors. The work in this fork builds on that foundation. What interests me is continuity: how an assistant finds the relevant decisions, what happens when a session changes, and how the person using it stays in control. Those questions give me useful things to investigate and write about.</p>
+<p>The second is <a href="https://github.com/faheemdehalvi/artsie" rel="noopener noreferrer">ARTsie</a>, a local Mac workspace and integration layer around <a href="https://getartcraft.com/apps" rel="noopener noreferrer">ArtCraft&#x27;s creative applications</a>. It includes a hub, shared workspace, command-line access and a gateway for AI assistants to use the applications&#x27; tools.</p>
+<p>The creative editors are ArtCraft&#x27;s work. ARTsie connects them into a workflow. That distinction matters because building a useful integration involves different decisions from building a photo editor or a video engine. I want to show the contribution clearly enough that another builder can understand it.</p>
+<p>The third is a <a href="https://github.com/faheemdehalvi/rag-skill" rel="noopener noreferrer">local document question-answering skill</a> for Claude Code. It uses <a href="https://github.com/HKUDS/RAG-Anything" rel="noopener noreferrer">RAG-Anything</a>, LightRAG and MinerU. Its configuration supports local models through Ollama.</p>
+<p>The retrieval and parsing systems come from those upstream projects. The skill provides a way to set them up and use them in a working environment. It raises practical questions I want to explore: which documents are worth indexing, how to check an answer against its source, and whether a retrieval system is needed for a particular task at all.</p>
+<p>Each repository has its own setup instructions and limitations. Start with those before installing anything. A project description explains the intended behaviour; a useful evaluation needs a defined task and observed results.</p>
+<h2 id="what-i-want-to-make-useful">What I want to make useful</h2>
+<p>A tool name is only part of a decision. The rest includes the information it needs, the output someone will rely on, the cost of an error and the work of maintaining it.</p>
+<p>Take an invoice workflow. Extracting a total is one step. Deciding what happens to a duplicate invoice, an unreadable scan or an incorrect total is part of the same design. I&#x27;ll use examples like that to explain the decisions in ordinary language.</p>
+<p>When I publish an experiment, I&#x27;ll describe the task, inputs, versions and result. When I publish a design proposal, I&#x27;ll explain the assumptions. You should be able to tell which kind of article you are reading.</p>
+<h2 id="what-you-ll-find-here">What you&#x27;ll find here</h2>
+<p>I&#x27;ll write practical guides for choosing a setup, walkthroughs of things I build, and reality checks on specific AI claims. Some pieces will be useful to engineers. Others will help someone who simply wants to understand which part of their work could become easier.</p>
+<p>I also want to teach people how to use their tools with more confidence. For now, I&#x27;m starting with clear explanations and work people can inspect. The questions readers bring will help shape what comes next.</p>
+<p>If you have an AI decision you&#x27;re stuck on, you can find me on <a href="https://www.linkedin.com/in/faheem-dehalvi/" rel="noopener noreferrer">LinkedIn</a>. Describe the task you are trying to complete and the part that is confusing. That&#x27;s a much better starting point than a shopping list of tools.</p>
+    </div>
+    <p class="article-back"><a href="../../writing/">&larr; Back to all writing</a> <span aria-hidden="true">/</span> <a href="../../">Home</a></p>
+  </div>
+</article>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-note">Personal site. Views and projects here are mine and are separate from Intelligent Resourcing and its clients.</p>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/faheem-dehalvi/" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="https://github.com/faheemdehalvi" rel="noopener noreferrer">GitHub</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

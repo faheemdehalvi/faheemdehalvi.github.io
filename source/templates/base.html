@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="theme-color" content="#fff8e6">
+<meta property="og:type" content="{{og_type}}">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+{{canonical_html}}<link rel="icon" href="{{root}}assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="{{root}}assets/styles.css">
+{{jsonld_html}}</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="{{root}}">Faheem Dehalvi</a>
+    <nav aria-label="Main">
+      <ul class="nav-list">
+{{nav_html}}
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+{{body_html}}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-note">{{footer_note}}</p>
+    <ul class="footer-links">
+{{footer_links_html}}
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

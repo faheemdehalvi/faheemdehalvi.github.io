@@ -1,0 +1,107 @@
+{
+  "name": "Faheem Dehalvi",
+  "name_lines": [
+    "Faheem",
+    "Dehalvi"
+  ],
+  "lang": "en-AU",
+  "title": "Faheem Dehalvi | AI engineer in Melbourne",
+  "description": "Faheem Dehalvi is an AI engineer in Melbourne. He builds AI tools for business workflows and explains the decisions behind them. Projects, writing and contact links.",
+  "tagline": "I build AI tools for business workflows and explain the decisions behind them.",
+  "tagline_highlight": "explain the decisions behind them",
+  "facts": [
+    {
+      "label": "Role",
+      "value": "AI Engineer at Intelligent Resourcing (part-time)",
+      "url": "https://intelligentresourcing.co/about-us"
+    },
+    {
+      "label": "Study",
+      "value": "Master of Data Science, RMIT. Expected graduation June 2027"
+    },
+    {
+      "label": "Base",
+      "value": "Melbourne, Australia"
+    },
+    {
+      "label": "Topics",
+      "value": "Knowledge and context retrieval. API and MCP integrations. Workflow automation"
+    }
+  ],
+  "projects_intro": "Tools for working with AI assistants, connecting applications and finding useful context.",
+  "projects": [
+    {
+      "name": "FD CODE",
+      "kind": "Fork, customised",
+      "summary": "A customised T3 Code application with additions around Brain continuity, provider handoffs and ARTsie integration.",
+      "credit": "Built on T3 Code by its upstream authors.",
+      "caveat": "",
+      "links": [
+        {
+          "label": "Source on GitHub",
+          "url": "https://github.com/faheemdehalvi/fd-code"
+        },
+        {
+          "label": "Upstream: T3 Code",
+          "url": "https://github.com/pingdotgg/t3code"
+        }
+      ]
+    },
+    {
+      "name": "ARTsie",
+      "kind": "Mac workspace and MCP gateway",
+      "summary": "A Mac workspace, hub and shared MCP gateway for the upstream ArtCraft apps.",
+      "credit": "Creative applications by ArtCraft; ARTsie provides the workspace and integration layer.",
+      "caveat": "",
+      "links": [
+        {
+          "label": "Source on GitHub",
+          "url": "https://github.com/faheemdehalvi/artsie"
+        },
+        {
+          "label": "Upstream: ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ]
+    },
+    {
+      "name": "RAG skill",
+      "kind": "Claude Code integration",
+      "summary": "A Claude Code integration for RAG-Anything, LightRAG and MinerU.",
+      "credit": "Built with RAG-Anything, LightRAG and MinerU.",
+      "caveat": "",
+      "links": [
+        {
+          "label": "Source on GitHub",
+          "url": "https://github.com/faheemdehalvi/rag-skill"
+        }
+      ]
+    }
+  ],
+  "writing_heading": "Writing",
+  "writing_intro": "Clear, practical guides: what a tool does, where it fails, and what to do next.",
+  "writing_empty": "No articles are published yet. The first working note below explains what I plan to write and the rules I will hold myself to.",
+  "about_heading": "About",
+  "about": [
+    "I'm an AI Engineer based in Melbourne, working part-time at Intelligent Resourcing while completing a Master of Data Science at RMIT. I expect to graduate in June 2027.",
+    "Outside work, I work on tools for connecting AI assistants, organising context and getting useful work done across applications. I write practical guides about the decisions behind those workflows: what information they need, how to check the output and what happens when a step fails.",
+    "The aim is simple: help you understand the options and decide what to do next."
+  ],
+  "about_link_text": "Intelligent Resourcing",
+  "about_link_url": "https://intelligentresourcing.co/about-us",
+  "contact_heading": "Elsewhere",
+  "contact_intro": "Have a workflow you are trying to make sense of? Find me here.",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "handle": "faheem-dehalvi",
+      "url": "https://www.linkedin.com/in/faheem-dehalvi/"
+    },
+    {
+      "label": "GitHub",
+      "handle": "faheemdehalvi",
+      "url": "https://github.com/faheemdehalvi"
+    }
+  ],
+  "footer_note": "Personal site. Views and projects here are mine and are separate from Intelligent Resourcing and its clients."
+}

@@ -1,0 +1,62 @@
+<section class="hero" aria-labelledby="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="label">AI engineer / Melbourne</p>
+      <h1 id="top" class="hero-name">{{name_lines_html}}</h1>
+      <p class="hero-lead">{{tagline_html}}</p>
+    </div>
+    <figure class="hero-figure">
+      {{workflow_svg}}
+      <figcaption class="label">How each piece of writing is structured</figcaption>
+    </figure>
+  </div>
+  <div class="wrap">
+    <dl class="facts">
+{{facts_html}}
+    </dl>
+  </div>
+</section>
+
+<section class="section" id="projects" aria-labelledby="projects-h">
+  <div class="wrap">
+    <p class="label">01 / Selected projects</p>
+    <h2 id="projects-h" class="section-title">Projects</h2>
+    <p class="section-intro">{{projects_intro}}</p>
+    <ol class="rows">
+{{projects_html}}
+    </ol>
+  </div>
+</section>
+
+<section class="section" id="writing" aria-labelledby="writing-h">
+  <div class="wrap">
+    <p class="label">02 / Writing</p>
+    <h2 id="writing-h" class="section-title">{{writing_heading}}</h2>
+    <p class="section-intro">{{writing_intro}}</p>
+{{writing_html}}
+    <p class="more"><a href="{{root}}writing/">All writing</a></p>
+  </div>
+</section>
+
+<section class="band" id="about" aria-labelledby="about-h">
+  <div class="wrap about-grid">
+    <div>
+      <p class="label">03 / About</p>
+      <h2 id="about-h" class="section-title">{{about_heading}}</h2>
+    </div>
+    <div class="about-text">
+{{about_html}}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact" aria-labelledby="contact-h">
+  <div class="wrap">
+    <p class="label">04 / Contact</p>
+    <h2 id="contact-h" class="section-title">{{contact_heading}}</h2>
+    <p class="section-intro">{{contact_intro}}</p>
+    <ul class="contact-list">
+{{contact_html}}
+    </ul>
+  </div>
+</section>
