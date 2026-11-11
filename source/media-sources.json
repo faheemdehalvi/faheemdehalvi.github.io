@@ -1,5 +1,5 @@
 {
-  "status": "local_preview_not_approved_not_published",
+  "status": "approved_for_publication",
   "retrieved": "2026-11-11",
   "assets": [
     {
@@ -14,5 +14,7 @@
       "placement": "About section photo",
       "sha256": "d11b2d66fc816a3a1c0313b58ae22aaf574b468fe98ea66537577786db287df6"
     }
-  ]
+  ],
+  "approvalDate": "2026-11-11",
+  "approval": "Faheem approved these two photos and placements before publication"
 }
