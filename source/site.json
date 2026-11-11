@@ -5,14 +5,14 @@
     "Dehalvi"
   ],
   "lang": "en-AU",
-  "title": "Faheem Dehalvi | AI engineer in Melbourne",
-  "description": "Faheem Dehalvi is an AI engineer in Melbourne. He builds AI tools for business workflows and explains the decisions behind them. Projects, writing and contact links.",
+  "title": "Faheem Dehalvi | Forward Deployed GTM Engineer",
+  "description": "Faheem Dehalvi is a Forward Deployed GTM Engineer in Melbourne. Practical writing, AI workflows, integrations and selected projects.",
   "tagline": "I build AI tools for business workflows and explain the decisions behind them.",
   "tagline_highlight": "explain the decisions behind them",
   "facts": [
     {
       "label": "Role",
-      "value": "AI Engineer at Intelligent Resourcing (part-time)",
+      "value": "Forward Deployed GTM Engineer at Intelligent Resourcing (part-time)",
       "url": "https://intelligentresourcing.co/about-us"
     },
     {
@@ -83,7 +83,7 @@
   "writing_empty": "No articles are published yet. The first working note below explains what I plan to write and the rules I will hold myself to.",
   "about_heading": "About",
   "about": [
-    "I'm an AI Engineer based in Melbourne, working part-time at Intelligent Resourcing while completing a Master of Data Science at RMIT. I expect to graduate in June 2027.",
+    "I'm a Forward Deployed GTM Engineer based in Melbourne, working part-time at Intelligent Resourcing while completing a Master of Data Science at RMIT. I expect to graduate in June 2027.",
     "Outside work, I work on tools for connecting AI assistants, organising context and getting useful work done across applications. I write practical guides about the decisions behind those workflows: what information they need, how to check the output and what happens when a step fails.",
     "The aim is simple: help you understand the options and decide what to do next."
   ],

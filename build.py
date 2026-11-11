@@ -620,6 +620,8 @@ def build(articles_dir=None, base_url=None, out=None):
     (out / "assets").mkdir(parents=True, exist_ok=True)
     shutil.copy2(SRC / "assets" / "styles.css", out / "assets" / "styles.css")
     shutil.copy2(SRC / "assets" / "favicon.svg", out / "assets" / "favicon.svg")
+    if (SRC / "assets" / "media").is_dir():
+        shutil.copytree(SRC / "assets" / "media", out / "assets" / "media", dirs_exist_ok=True)
     if base_url:
         (out / "sitemap.xml").write_text(site.sitemap(), encoding="utf-8")
         (out / "robots.txt").write_text("User-agent: *\nAllow: /\n\nSitemap: %ssitemap.xml\n" % base_url, encoding="utf-8")

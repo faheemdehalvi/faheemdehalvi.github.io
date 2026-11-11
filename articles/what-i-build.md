@@ -2,7 +2,7 @@
 title: What I build and why I'm writing about it
 slug: what-i-build
 published: 2026-11-11
-description: AI engineer Faheem Dehalvi introduces his projects and practical writing on AI workflows, context and integrations.
+description: Forward Deployed GTM Engineer Faheem Dehalvi introduces his projects and practical writing on AI workflows, context and integrations.
 ---
 
 # What I build and why I'm writing about it
@@ -11,7 +11,7 @@ I want AI advice that leaves me knowing what to do next. Which part of a task co
 
 Those are the questions I want this site to answer.
 
-I'm Faheem Dehalvi, an AI Engineer based in Melbourne. I work part-time at [Intelligent Resourcing](https://intelligentresourcing.co/about-us), building automations and agents, while completing a Master of Data Science at RMIT. I expect to graduate in June 2027.
+I'm Faheem Dehalvi, a Forward Deployed GTM Engineer based in Melbourne. I work part-time at [Intelligent Resourcing](https://intelligentresourcing.co/about-us), building automations and agents, while completing a Master of Data Science at RMIT. I expect to graduate in June 2027.
 
 Outside work, I work on tools for connecting AI assistants, organising context and getting useful work done across applications. This site is where I'll explain those projects and the decisions behind them.
 

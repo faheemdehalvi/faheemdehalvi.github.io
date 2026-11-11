@@ -1,0 +1,18 @@
+{
+  "status": "local_preview_not_approved_not_published",
+  "retrieved": "2026-11-11",
+  "assets": [
+    {
+      "file": "media/faheem-portrait.png",
+      "source": "https://www.linkedin.com/in/faheem-dehalvi/",
+      "placement": "Homepage portrait",
+      "sha256": "3f9fe5c412730a638748e0d96a6d259c57bd657ed2db310f1b0e0638c8f79bee"
+    },
+    {
+      "file": "media/coworking-lunch.jpg",
+      "source": "https://www.linkedin.com/posts/faheem-dehalvi_weeknds-arent-really-for-resting-up-theyre-share-7466699340036706304-agLs/",
+      "placement": "About section photo",
+      "sha256": "d11b2d66fc816a3a1c0313b58ae22aaf574b468fe98ea66537577786db287df6"
+    }
+  ]
+}
